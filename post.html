@@ -5,85 +5,52 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="/assets/styles/index.css">
+  <link rel="stylesheet" href="/assets/styles/tailwind.min.css">
+  <link rel="stylesheet" href="/assets/styles/index-tw.css">
 
   <title>Template</title>
 
 </head>
-<body>
-  
-  <div class="navbar">
-    <div class="container navbar-container">
-      <a class="navbar-brand" href="/">
-        Hasnain.Dev
-      </a>
+<body class="bg-gray-100 min-h-screen">
 
-      <div class="navbar-nav">
-        <span class="navbar-item">
-          <a class="navbar-link" href="/">
-            Who?
-          </a>
-        </span>
-        <span class="navbar-item">
-          <a class="navbar-link" href="/hire-me.html">
-            Hire Me!
-          </a>
-        </span>
-      </div>
-    </div>
-  </div>
+  <div id="app">
 
-  <div class="header">
-    <div class="header-textbox">
-      <div class="header-content">
-        <!-- <h1 class="header-title">
-          Hasnain.Dev
-        </h1>
-        <p class="header-subtitle">
-          I become a Software Engineer despite having no degree.
-          I created this blog with one purpose in my mind, to help you get into the
-          industry and to be the best you can be. Here, you'll not only get the best
-          career advice and mentorship.
-        </p> -->
-      </div>
-      <div class="header-cta">
-        <a class="btn btn-primary btn-lg" href="/hire-me.html">
-          Hire Me
+    <div class="absolute w-full">
+      <div class="hd-container flex justify-between align-center mx-auto p-2">
+        <a class="text-white text-xl" href="javascript:void(0)">
+          HasnainDev
         </a>
-      </div>
-    </div>
-  </div>
-
-  <div class="container">
-    <div class="container-pulled">
-
-      <div class="post" id="post">
-        <h1 class="post-title margin-bottom-lg">
-          Follow Your Passion Is A Bad Career Advice
-        </h1>
-        <p class="post-content">
-          Strip steak ribeye drumstick jerky alcatra swine.  Sausage pig pancetta, corned beef burgdoggen frankfurter brisket picanha landjaeger short ribs bacon meatloaf pastrami.  Pork loin venison brisket hamburger cupim.  Cupim salami ribeye kevin, tail beef ribs turkey filet mignon shank chicken.  Chislic ball tip cow flank corned beef short ribs, beef ribs drumstick strip steak.
-        </p>
-        <p class="post-content">
-          Strip steak ribeye drumstick jerky alcatra swine.  Sausage pig pancetta, corned beef burgdoggen frankfurter brisket picanha landjaeger short ribs bacon meatloaf pastrami.  Pork loin venison brisket hamburger cupim.  Cupim salami ribeye kevin, tail beef ribs turkey filet mignon shank chicken.  Chislic ball tip cow flank corned beef short ribs, beef ribs drumstick strip steak.
-        </p>
-        <p class="post-content">
-          Strip steak ribeye drumstick jerky alcatra swine.  Sausage pig pancetta, corned beef burgdoggen frankfurter brisket picanha landjaeger short ribs bacon meatloaf pastrami.  Pork loin venison brisket hamburger cupim.  Cupim salami ribeye kevin, tail beef ribs turkey filet mignon shank chicken.  Chislic ball tip cow flank corned beef short ribs, beef ribs drumstick strip steak.
-        </p>
-        <div class="margin-top-lg text-right">
-          <a class="btn btn-light margin-right-tiny" href="/">
-            Back
-          </a>
-          <button class="btn btn-link" id="share" type="button">
-            Share
-          </button>
+        <div class="flex">
+          <a class="px-3 py-2 text-white" href="javascript:void(0)">Who?</a>
+          <a class="px-3 py-2 text-white" href="javascript:void(0)">Hire Me!</a>
         </div>
       </div>
-
     </div>
-  </div>
 
-  <script src="/assets/scripts/index.js"></script>
+    <div class="header flex">
+      <div class="hd-header-container m-auto text-center px-2">
+        <div class="mb-6">
+          <h1 class="text-2xl sm:text-3xl md:text-4xl text-white mb-8 sm:mb-2">
+            Post Title Goes Here
+          </h1>
+          <p class="text-sm md:text-base text-white text-opacity-75 hidden sm:block">
+            Follow your passion is not a good career advice, in this post
+            we will explore why that is and what is the better better solution.
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="hd-container mx-auto px-0 sm:px-2">
+      <div class="rounded-0 sm:rounded-lg bg-white shadow-sm p-0 py-10 px-2 lg:p-20 md:p-16 sm:p-12 pull text-sm md:text-base">
+        <p class="mb-4 md:mb-6">Cupim boudin chuck rump landjaeger.  Pig capicola ribeye t-bone meatball.  Turducken buffalo kevin swine.  Sausage flank boudin cow beef tail kielbasa porchetta pork loin frankfurter shank salami.  Pork chop drumstick kielbasa strip steak ground round, shankle ham hock capicola.  Drumstick frankfurter shoulder, beef ribs filet mignon buffalo meatloaf jowl turkey ground round bresaola rump alcatra.</p>
+        <p class="mb-4 md:mb-6">Cupim boudin chuck rump landjaeger.  Pig capicola ribeye t-bone meatball.  Turducken buffalo kevin swine.  Sausage flank boudin cow beef tail kielbasa porchetta pork loin frankfurter shank salami.  Pork chop drumstick kielbasa strip steak ground round, shankle ham hock capicola.  Drumstick frankfurter shoulder, beef ribs filet mignon buffalo meatloaf jowl turkey ground round bresaola rump alcatra.</p>
+        <p class="mb-4 md:mb-6">Cupim boudin chuck rump landjaeger.  Pig capicola ribeye t-bone meatball.  Turducken buffalo kevin swine.  Sausage flank boudin cow beef tail kielbasa porchetta pork loin frankfurter shank salami.  Pork chop drumstick kielbasa strip steak ground round, shankle ham hock capicola.  Drumstick frankfurter shoulder, beef ribs filet mignon buffalo meatloaf jowl turkey ground round bresaola rump alcatra.</p>
+        <p>Cupim boudin chuck rump landjaeger.  Pig capicola ribeye t-bone meatball.  Turducken buffalo kevin swine.  Sausage flank boudin cow beef tail kielbasa porchetta pork loin frankfurter shank salami.  Pork chop drumstick kielbasa strip steak ground round, shankle ham hock capicola.  Drumstick frankfurter shoulder, beef ribs filet mignon buffalo meatloaf jowl turkey ground round bresaola rump alcatra.</p>
+      </div>
+    </div>
+
+  </div>
 
 </body>
 </html>
